@@ -8,7 +8,7 @@
 
 body {
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: "DynaPuff", cursive;
 }
 
@@ -279,3 +279,13 @@ body {
 .completed {
     text-decoration: line-through;
 } */
+
+@media screen and (max-width: 768px) {
+    .background-image {
+        display: none;
+    }
+    .container {
+        width: 350px;
+        padding: 30px;
+    }
+}
